@@ -5,9 +5,12 @@ function Button() {
     alert('Upload file')
   }
   return (
-    <div>
-      <button className="Button_header" onClick={clickMe}> UPLOAD </button>
+    <div className="Button_container">
+      <button className="Button_header" onClick={clickMe}>
+        {' '}
+        UPLOAD{' '}
+      </button>
     </div>
   )
 }
-export default Button;
+export default Button

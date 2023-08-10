@@ -1,0 +1,35 @@
+@mixin sectionheader {
+  text-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+@mixin subheader {
+  text-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+@mixin labelsbuttons {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.article__container {
+  flex-direction: column;
+  display: flex;
+}
+.article__text {
+  @include labelsbuttons;
+
+  &--date {
+    @include bodycopy;
+    color: #afafaf;
+  }
+}

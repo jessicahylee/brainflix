@@ -1,0 +1,18 @@
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.article__containerOne {
+  display: flex;
+  flex-direction: column;
+}
+.article__containerOne--views {
+  @include bodycopy;
+  color: #afafaf;
+}
+.article__containerOne--likes {
+  @include bodycopy;
+  color: #afafaf;
+}

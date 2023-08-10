@@ -4,9 +4,9 @@ function SearchBar() {
   
   return (
   
-      <div>
-        <label for="search"> </label>
-        <input type="search" id="search"/>
+      <div className="search_container">
+        <label  className ="search" for="search"> </label>
+        <input className="search" type="search" id="search"/>
       </div>
 
   )

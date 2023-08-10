@@ -20,19 +20,13 @@
   line-height: 20px;
   font-weight: 700;
 }
-
-.Header {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  justify-content: center;
-  padding-bottom: 10px;
+.text__text {
+  @include bodycopy;
 }
-
-.Header-header {
-  display: flex;
-  flex-direction: row;
-  height: 25px;
-  width: 120px;
-  padding-left: 180px;
+.text__comments {
+  @include labelsbuttons;
+}
+.text__join {
+  @include labelsbuttons;
+  color: #afafaf;
 }
