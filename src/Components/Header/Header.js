@@ -1,11 +1,11 @@
 import './Header.scss'
+import logo from '../../Assets/Logo/BrainFlix-logo.svg'
 
 function Header() {
   return (
     <div className="Header">
       <header className="Header-header">
-        <img src="" className="App-logo" alt="logo" />
-        <h3 className="Header-text">BrainFlix</h3>
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   )

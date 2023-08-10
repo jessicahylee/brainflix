@@ -19,6 +19,7 @@ function Article() {
       </p>
 
       <h3> 3 Comments</h3>
+       <h2> Join the Conversation </h2> 
     </div>
   )
 }
