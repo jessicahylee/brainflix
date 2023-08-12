@@ -1,21 +1,22 @@
 import commentsData from '../../Assets/Data/video-details.json'
+import { useState } from 'react'
+import './Comments.scss'
 
 function Comments() {
   console.log(commentsData)
-  const id = '84e96018-4022-434e-80bf-000ce4cd12b8' // save this in state Hint: useState
+  // eslint-disable-next-line
+  const [id, setId] = useState('84e96018-4022-434e-80bf-000ce4cd12b8')
   const videoComments = commentsData.find((data) => data.id === id)
   console.log(videoComments.comments) // find function
   return (
     <div>
       <label for="name"> </label>
-      <input type="text" />
-      <button> COMMENT </button>
+      <input className="comment__section" type="text" />
       {videoComments.comments.map((videoComment, i) => (
         <div key={i}>{videoComment.comment}</div>
       ))}
     </div>
   )
 }
-
 
 export default Comments

@@ -4,6 +4,7 @@ import Article from './Components/Article/Article'
 import ArticleOne from './Components/Article/ArticleOne/ArticleOne'
 import Text from './Components/Article/Text/Text'
 import Comments from './Components/Comments/Comments'
+import NextVideos from './Components/Article/ArticleOne/NextVideos/NextVideos'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ArticleOne />
       <Text />
       <Comments />
+      <NextVideos/>
     </>
   )
 }
