@@ -1,10 +1,7 @@
-@mixin subheader {
+.video__container-title {
   text-size: 12px;
   line-height: 20px;
   font-weight: 700;
-}
-.video__container-title {
-  @include subheader;
   margin-left: 20px;
 }
 
@@ -16,11 +13,7 @@
   .video__container {
     width: 1000px;
   }
-
   .video_video {
-    width: 1200px;
+    width: 900px;
   }
-  .video__container-title {
-    padding-left: 300px;
-  }
-}
+}/*# sourceMappingURL=Hero.css.map */

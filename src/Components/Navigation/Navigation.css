@@ -4,10 +4,10 @@
   flex-direction: column;
   padding-left: 100px;
 }
+
 @media (min-width: 820px) and (max-width: 1180px) {
   .navigation__container {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
   }
-}
+}/*# sourceMappingURL=Navigation.css.map */

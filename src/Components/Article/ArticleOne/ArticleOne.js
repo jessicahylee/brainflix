@@ -16,11 +16,11 @@ import './ArticleOne.scss'
 function ArticleOne() {
   return (
     <div className="article__container">
-      <p className="article__container--date">07/11/2021</p>{' '}
-      <span>
+      <p className="article__containerOne--views">1,001,023</p>{' '}
+      <div>
         {' '}
         <p className="article__container--likes"> 110,985 </p>{' '}
-      </span>
+      </div>
     </div>
   )
 }

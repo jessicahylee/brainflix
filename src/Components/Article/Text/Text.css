@@ -1,0 +1,18 @@
+.text__text {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text__comments {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.text__join {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #afafaf;
+}/*# sourceMappingURL=Text.css.map */

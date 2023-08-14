@@ -6,15 +6,24 @@
   border: none;
   padding: 0;
   border-radius: 8px;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
 }
+
 .Button_container {
   padding-left: 100px;
   padding-bottom: 20px;
 }
+
 @media (min-width: 820px) and (max-width: 1180px) {
   .Button_container {
     display: flex;
     flex-direction: row;
   }
-
+  .Button_header {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+  }
 }

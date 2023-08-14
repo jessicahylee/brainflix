@@ -1,0 +1,17 @@
+.article__container--likes {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #afafaf;
+  padding-left: 230px;
+}
+
+.article__container--date {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #afafaf;
+} /*# sourceMappingURL=ArticleOne.css.map */
+
+@media (min-width: 820px) and (max-width: 1180px) {
+}

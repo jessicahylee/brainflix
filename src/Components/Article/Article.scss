@@ -22,11 +22,10 @@
 }
 
 .article__container {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
 }
-.article__containerOne--views {
-  padding-left: 200px;
+.article__container--date {
   color: #afafaf;
 }
 .article__text {
@@ -36,4 +35,16 @@
 .article__container {
   display: flex;
   flex-direction: row;
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+  .article__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .article__container--date {
+    padding-left: 30px;
+  }
+  .article__text {
+    padding-left: 20px;
+  }
 }
