@@ -22,14 +22,18 @@
 }
 
 .article__container {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
+}
+.article__containerOne--views {
+  padding-left: 200px;
+  color: #afafaf;
 }
 .article__text {
   @include labelsbuttons;
+}
 
-  &--date {
-    @include bodycopy;
-    color: #afafaf;
-  }
+.article__container {
+  display: flex;
+  flex-direction: row;
 }

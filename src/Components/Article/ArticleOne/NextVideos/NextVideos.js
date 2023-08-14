@@ -1,20 +1,21 @@
 import records from '../../../../Assets/Data/video-details.json'
 
 function NextVideos() {
-  console.log(records)
+const newRecords = records.slice(1);
   return (
     <div className="inner">
-      {records &&
-        records.map((record) => {
+      {newRecords &&
+        newRecords.map((record,idx) => {
           return (
+          
             <div className="box">
-              <video poster={record.image} width="200px" height="150px">
+              <video key={idx} poster={record.image} width="200px" height="150px">
                 {' '}
               </video>
-            </div>
+            </div> 
           )
-        })}
-    </div>
+})}
+   </div>
   )
 }
 

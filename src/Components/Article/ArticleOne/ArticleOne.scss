@@ -4,15 +4,18 @@
   font-weight: 400;
 }
 
-.article__containerOne {
-  display: flex;
-  flex-direction: column;
-}
-.article__containerOne--views {
+.article__container--likes {
   @include bodycopy;
   color: #afafaf;
+  padding-left: 230px;
+
+  // &--date
+  //    @include bodycopy;
+  // color: #afafaf;
+  //
 }
-.article__containerOne--likes {
+
+.article__container--date {
   @include bodycopy;
   color: #afafaf;
 }

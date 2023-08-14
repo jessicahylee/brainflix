@@ -9,9 +9,12 @@ function Comments() {
   const videoComments = commentsData.find((data) => data.id === id)
   console.log(videoComments.comments) // find function
   return (
-    <div>
+    <div className="comments_container">
       <label for="name"> </label>
       <input className="comment__section" type="text" />
+      <br></br>
+      <button className="comment_button">COMMENT</button>
+      <hr></hr>
       {videoComments.comments.map((videoComment, i) => (
         <div key={i}>{videoComment.comment}</div>
       ))}

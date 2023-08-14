@@ -1,3 +1,13 @@
+@mixin subheader {
+  text-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.video__container-title {
+  @include subheader;
+  margin-left: 20px;
+}
+
 .video__container {
   margin-top: 20px;
 }
