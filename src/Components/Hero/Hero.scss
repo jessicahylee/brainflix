@@ -24,3 +24,17 @@
     padding-left: 300px;
   }
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .video_video {
+    width: 1425px;
+  }
+  .video__container-title {
+    padding-left: 300px;
+  }
+  .video__container {
+    background-image: linear-gradient(
+        rgba(32, 32, 32, 0.5) rgba(32, 32, 32, 0.5)
+      ),
+      url(https://i.imgur.com/l2Xfgpl.jpg);
+  }
+}

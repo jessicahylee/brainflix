@@ -24,6 +24,7 @@
 .article__container {
   flex-direction: column;
   display: flex;
+  padding-left: 20px;
 }
 .article__container--date {
   color: #afafaf;
@@ -48,3 +49,16 @@
     padding-left: 20px;
   }
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+    .article__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .article__container--date {
+    padding-left: 30px;
+  }
+  .article__text {
+    padding-left: 20px;
+  }
+}
+

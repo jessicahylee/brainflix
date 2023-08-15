@@ -15,5 +15,11 @@
   .search2 {
     display: flex;
     flex-direction: row;
+    height: 40px;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .search2 {
+    height: 40px;
   }
 }

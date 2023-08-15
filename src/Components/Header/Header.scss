@@ -41,6 +41,19 @@
   .Header {
     display: flex;
     flex-direction: row;
+    padding-right: 10px;
+  }
+  .App-logo {
+    display: flex;
+    flex-direction: row;
+    // padding-right: 100px;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .Header {
+    display: flex;
+    flex-direction: row;
+    padding-right: 300px;
   }
   .App-logo {
     display: flex;

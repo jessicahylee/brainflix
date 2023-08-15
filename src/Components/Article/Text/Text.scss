@@ -22,11 +22,14 @@
 }
 .text__text {
   @include bodycopy;
+  padding-left: 20px;
 }
 .text__comments {
   @include labelsbuttons;
+  padding-left: 20px;
 }
 .text__join {
   @include labelsbuttons;
   color: #afafaf;
+  padding-left: 20px;
 }

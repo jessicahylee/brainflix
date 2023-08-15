@@ -11,3 +11,10 @@
     padding-top: 20px;
   }
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .navigation__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+  }
+}

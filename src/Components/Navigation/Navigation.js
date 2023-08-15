@@ -1,6 +1,7 @@
 import Button from '../Button/Button'
 import SearchBar from '../SearchBar/SearchBar'
 import Header from '../Header/Header'
+import Avatar from '../Avatar/Avatar'
 import './Navigation.scss'
 
 function Navigation() {
@@ -9,6 +10,7 @@ function Navigation() {
       <Header />
       <SearchBar />
       <Button />
+      <Avatar />
     </div>
   )
 }

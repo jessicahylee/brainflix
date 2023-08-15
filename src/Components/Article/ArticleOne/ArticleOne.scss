@@ -18,8 +18,25 @@
   color: #afafaf;
   padding-left: 230px;
 }
+.icon_views {
+  width: 20px;
+}
 
 @media (min-width: 820px) and (max-width: 1180px) {
+  .article__container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+  }
+  .article__containerOne--views {
+    justify-content: end;
+  }
+  .article__container--likes {
+    display: flex;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
   .article__container {
     display: flex;
     flex-direction: row;

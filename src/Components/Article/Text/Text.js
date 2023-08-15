@@ -2,7 +2,7 @@ import './Text.scss'
 
 function Text() {
   return (
-    <div>
+    <div className="text__container">
       <p className="text__text">
         {' '}
         On a gusty day in Southern Utah, a group of 25 daring mountain bikers
