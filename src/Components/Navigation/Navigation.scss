@@ -23,6 +23,12 @@
     flex-direction: row;
     padding-top: 20px;
   }
+  .avatar_mobile {
+    display: none;
+  }
+  .avatar_tablet {
+    display: flex;
+  }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
 }

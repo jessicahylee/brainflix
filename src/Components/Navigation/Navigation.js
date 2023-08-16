@@ -11,8 +11,7 @@ function Navigation() {
       <div className="avatar_">
         <SearchBar />{' '}
         <span className="avatar_mobile">
-          {' '}
-          <Avatar />{' '}
+          <Avatar />
         </span>
       </div>
       <Button />
