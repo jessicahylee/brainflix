@@ -1,0 +1,47 @@
+@mixin sectionheader {
+  text-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+@mixin subheader {
+  text-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+@mixin labelsbuttons {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.video-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border-radius: 70%;
+}
+.videos_container {
+  border-radius: 10%;
+  width: 200px;
+  height: 150px;
+}
+.title_videos {
+  @include subheader();
+}
+.channel_videos {
+  @include bodycopy();
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+}

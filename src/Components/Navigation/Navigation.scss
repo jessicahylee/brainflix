@@ -4,6 +4,19 @@
   flex-direction: column;
   padding-left: 100px;
 }
+.avatar_tablet {
+  display: none;
+}
+.avatar_mobile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.avatar_ {
+  display: flex;
+  flex-direction: row;
+}
 @media (min-width: 820px) and (max-width: 1180px) {
   .navigation__container {
     display: flex;
@@ -12,9 +25,4 @@
   }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
-  .navigation__container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-  }
 }

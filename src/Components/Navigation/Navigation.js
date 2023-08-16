@@ -7,10 +7,18 @@ import './Navigation.scss'
 function Navigation() {
   return (
     <div className="navigation__container">
-      <Header />
-      <SearchBar />
+      <Header />{' '}
+      <div className="avatar_">
+        <SearchBar />{' '}
+        <span className="avatar_mobile">
+          {' '}
+          <Avatar />{' '}
+        </span>
+      </div>
       <Button />
-      <Avatar />
+      <div className="avatar_tablet">
+        <Avatar />
+      </div>
     </div>
   )
 }
