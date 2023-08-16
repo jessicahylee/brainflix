@@ -4,6 +4,7 @@ import Text from './Components/Article/Text/Text'
 import Comments from './Components/Comments/Comments'
 import NextVideos from './Components/NextVideos/NextVideos'
 import Information from './Components/Information/Information'
+import './App.scss'
 
 function App() {
   return (

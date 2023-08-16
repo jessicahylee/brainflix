@@ -1,6 +1,7 @@
 import commentsData from '../../Assets/Data/video-details.json'
 import { useState } from 'react'
 import './Comments.scss'
+import avatar from '../../Assets/Images/Mohan-muruge.jpg'
 
 function Comments() {
   // eslint-disable-next-line
@@ -8,17 +9,26 @@ function Comments() {
   const videoComments = commentsData.find((data) => data.id === id)
 
   return (
-    <div className="comments_container">
-      <label htmlFor="name"> </label>
-      <input className="comment__section" type="text" />
-      <br />
-      <button className="comment_button">COMMENT</button>
-      <hr />
+    <div className="comments__container--list">
+      <div className="comments__container-div">
+        <div className="Avatar_container">
+          <img src={avatar} className="Avatar" alt="" />
+        </div>
+        <div className="comments_container">
+          <p className="text__join"> JOIN THE CONVERSATION </p>
+          <label htmlFor="name"> </label>
+          <input className="comment__section" type="text" />
+          <br />
+          <button className="comment_button">COMMENT</button>
+          <hr></hr>
+        </div>
+      </div>
 
       {videoComments.comments.map((videoComment, i) => (
         <div className="comment" key={i}>
           <div className="comment-header">
             <span className="comment-name">{videoComment.name}</span>
+            <br></br>
             <span className="comment-date">
               {new Date(videoComment.timestamp).toLocaleString()}
             </span>

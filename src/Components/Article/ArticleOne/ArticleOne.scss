@@ -30,10 +30,16 @@
   }
   .article__containerOne--views {
     justify-content: end;
+    @include bodycopy;
+    color: #afafaf;
+    padding-left: 400px;
   }
   .article__container--likes {
     display: flex;
     margin-right: 0;
+    @include bodycopy;
+    color: #afafaf;
+    padding-left: 30px;
   }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
@@ -43,10 +49,15 @@
     padding-left: 60px;
   }
   .article__containerOne--views {
-    justify-content: end;
+    @include bodycopy;
+    color: #afafaf;
+    padding-left: 700px;
   }
   .article__container--likes {
     display: flex;
     margin-right: 0;
+    @include bodycopy;
+    color: #afafaf;
+    padding-left: 30px;
   }
 }

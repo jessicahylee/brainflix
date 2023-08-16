@@ -7,8 +7,8 @@ function Button() {
   return (
     <div className="Button_container">
       <button className="Button_header" onClick={clickMe}>
-        {' '}
-        UPLOAD{' '}
+        
+        UPLOAD
       </button>
     </div>
   )

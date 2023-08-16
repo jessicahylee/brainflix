@@ -13,9 +13,7 @@ function Text() {
         won the event for the second time -- eight years after his first Red Cow
         Rampage title.
       </p>
-
       <p className="text__comments"> 3 Comments</p>
-      <p className="text__join"> JOIN THE CONVERSATION </p>
     </div>
   )
 }
