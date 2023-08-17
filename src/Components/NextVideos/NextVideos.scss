@@ -66,9 +66,19 @@
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
   .inner {
-    padding-right: 250px;
+    padding-right: 100px;
   }
   .videos_container {
-    width: 120px;
+    width: 100px;
+  }
+  .title_videos {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+  }
+  .channel_videos {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
   }
 }
