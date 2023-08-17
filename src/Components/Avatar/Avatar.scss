@@ -17,5 +17,7 @@ avatar_container {
 @media (min-width: 1180px) and (max-width: 1800px) {
   .avatar_container {
     padding-left: 20px;
+    display: flex;
+    flex-direction: row;
   }
 }

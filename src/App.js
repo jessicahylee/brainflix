@@ -11,10 +11,16 @@ function App() {
     <>
       <Navigation />
       <Hero />
-      <Information />
-      <Text />
-      <Comments />
-      <NextVideos />
+      <div className="destok_container">
+        <div className="destok_container-div2">
+          <Information />
+          <Text />
+          <Comments />
+        </div>
+        <div className="destok_container-div">
+          <NextVideos />
+        </div>
+      </div>
     </>
   )
 }

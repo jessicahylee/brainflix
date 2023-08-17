@@ -43,5 +43,24 @@
 .channel_videos {
   @include bodycopy();
 }
+.nextVideos {
+  padding-left: 30px;
+  @include labelsbuttons();
+  color: #afafaf;
+}
 @media (min-width: 820px) and (max-width: 1180px) {
+  .inner {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .videos_container {
+    border-radius: 20%;
+    width: 150px;
+    height: 140px;
+  }
+  .nextVideos {
+    padding-left: 15px;
+    @include labelsbuttons();
+    color: #afafaf;
+  }
 }

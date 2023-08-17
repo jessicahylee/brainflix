@@ -83,9 +83,53 @@
 .comment-date {
   padding-right: 40px;
 }
+.comment__button-container {
+  padding-top: 20px;
+}
 @media (min-width: 820px) and (max-width: 1180px) {
   .comment__section {
     display: flex;
     flex-direction: row;
+  }
+
+  .comments__container-div {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .comment__section {
+    width: 600px;
+    height: 30px;
+  }
+  .Avatar_container {
+    padding-top: 10px;
+  }
+  .comments_container {
+    display: flex;
+    flex-direction: row;
+  }
+  .comment__button-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .text__join {
+    display: none;
+  }
+  .comments__div {
+    display: flex;
+    flex-direction: row;
+  }
+  .comments_line {
+    display: none;
+  }
+  .comment {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .comment-text {
+    padding-top: 10px;
   }
 }

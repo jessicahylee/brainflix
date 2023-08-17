@@ -14,13 +14,17 @@ function Comments() {
         <div className="Avatar_container">
           <img src={avatar} className="Avatar" alt="" />
         </div>
-        <div className="comments_container">
-          <p className="text__join"> JOIN THE CONVERSATION </p>
-          <label htmlFor="name"> </label>
+        <div className="comments__div">
+          <div className="comments_container">
+            <p className="text__join"> JOIN THE CONVERSATION </p>
+            <label htmlFor="name"> </label>
+          </div>
           <input className="comment__section" type="text" />
           <br />
-          <button className="comment_button">COMMENT</button>
-          <hr></hr>
+          <div className="comment__button-container">
+            <button className="comment_button">COMMENT</button>
+            <hr className="comments_line"></hr>
+          </div>
         </div>
       </div>
 

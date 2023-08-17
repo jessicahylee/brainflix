@@ -6,7 +6,7 @@ function Hero() {
       <video
         className="video_video"
         poster="https://i.imgur.com/l2Xfgpl.jpg"
-        width="500px"
+        width="500vx"
         controls
       >
         {' '}
