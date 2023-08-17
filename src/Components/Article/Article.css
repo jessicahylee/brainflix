@@ -9,7 +9,7 @@
 }
 
 .article__text {
-  text-size: 10px;
+  font-size: 10px;
   line-height: 20px;
   font-weight: 700;
 }
@@ -17,4 +17,5 @@
 .article__container {
   display: flex;
   flex-direction: row;
-}/*# sourceMappingURL=Article.css.map */
+  padding-left: 20px;
+}

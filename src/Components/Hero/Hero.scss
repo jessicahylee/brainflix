@@ -14,11 +14,12 @@
 
 @media (min-width: 820px) and (max-width: 1180px) {
   .video__container {
-    width: 700vx;
+    width: 100%;
   }
 
   .video_video {
-    width: 1200px;
+    width: 1100px;
+    padding-left: 30px;
   }
   .video__container-title {
     padding-left: 300px;
@@ -26,10 +27,13 @@
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
   .video_video {
-    width: 1425px;
+    width: 70%;
+    padding-left: 220px;
   }
   .video__container-title {
     padding-left: 300px;
+    padding-left: 200px;
+    padding-top: 20px;
   }
   .video__container {
     background-image: linear-gradient(

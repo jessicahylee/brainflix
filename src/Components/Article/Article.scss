@@ -50,15 +50,14 @@
   }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
-    .article__container {
+  .article__container {
     display: flex;
     flex-direction: row;
   }
-  .article__container--date {
-    padding-left: 30px;
+  .article__container--date { // TO BRING TO THE RIGHT/LET THE DATE 
+    padding-left: 40px;
   }
   .article__text {
-    padding-left: 20px;
+    padding-left: 160px; // to change the icon from BY RED CROW
   }
 }
-

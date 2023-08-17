@@ -11,7 +11,7 @@ function NextVideos() {
           <video
             className="videos_container"
             poster={record.image}
-            width="200px"
+            width="100%"
             height="150px"
           >
             {' '}

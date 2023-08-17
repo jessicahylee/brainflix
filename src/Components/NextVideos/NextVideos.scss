@@ -38,7 +38,7 @@
   height: 100px;
 }
 .title_videos {
-  @include subheader();
+  @include sectionheader;
 }
 .channel_videos {
   @include bodycopy();
@@ -62,5 +62,13 @@
     padding-left: 15px;
     @include labelsbuttons();
     color: #afafaf;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .inner {
+    padding-right: 250px;
+  }
+  .videos_container {
+    width: 120px;
   }
 }

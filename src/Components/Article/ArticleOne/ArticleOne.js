@@ -2,7 +2,6 @@ import './ArticleOne.scss'
 import views from '../../../Assets/Icons/views.svg'
 import likes from '../../../Assets/Icons/likes.svg'
 
-
 function ArticleOne() {
   return (
     <div className="article__container">
@@ -13,7 +12,7 @@ function ArticleOne() {
         {' '}
         <p className="article__container--likes">
           {' '}
-          110,985 <img className="icon_views" src={likes} alt="" />
+          110,985 <img className="icon_likes" src={likes} alt="" />
         </p>{' '}
       </div>
     </div>
