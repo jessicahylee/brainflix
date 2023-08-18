@@ -6,19 +6,20 @@ import './Navigation.scss'
 
 function Navigation() {
   return (
-    <div className="navigation__container">
-      <Header />{' '}
-      <div className="avatar_">
-        <SearchBar />{' '}
-        <span className="avatar_mobile">
+   
+      <div className="navigation__container">
+        <Header />{' '}
+        <div className="avatar_">
+          <SearchBar />{' '}
+          <span className="avatar_mobile">
+            <Avatar />
+          </span>
+        </div>
+        <Button />
+        <div className="avatar_tablet">
           <Avatar />
-        </span>
+        </div>
       </div>
-      <Button />
-      <div className="avatar_tablet">
-        <Avatar />
-      </div>
-    </div>
   )
 }
 export default Navigation

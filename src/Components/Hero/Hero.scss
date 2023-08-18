@@ -9,10 +9,6 @@
   line-height: 20px;
   font-weight: 700;
 }
-.video__container-title {
-  @include subheader;
-  margin-left: 20px;
-}
 
 .video__container {
   margin-top: 20px;
@@ -33,7 +29,7 @@
     padding-left: 30px;
   }
   .video__container-title {
-    padding-left: 300px;
+    padding-left: 60px;
   }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
@@ -41,16 +37,14 @@
     width: 70%;
     padding-left: 220px;
   }
-  .video__container-title {
-    padding-left: 300px;
-    padding-left: 200px;
-    padding-top: 20px;
-  }
   .video__container {
     background-image: linear-gradient(
         rgba(32, 32, 32, 0.5) rgba(32, 32, 32, 0.5)
       ),
       url(https://i.imgur.com/l2Xfgpl.jpg);
     width: 100%;
+  }
+  .video__container-title {
+    padding-left: 220px;
   }
 }
