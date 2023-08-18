@@ -39,6 +39,7 @@ function Comments() {
           </div>
           <div className="comment-text">{videoComment.comment}</div>
           <hr className="comment_space"></hr>
+          <div> </div> 
         </div>
       ))}
     </div>

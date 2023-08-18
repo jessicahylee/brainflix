@@ -4,6 +4,7 @@ import records from '../../Assets/Data/video-details.json'
 function NextVideos() {
   const newRecords = records.slice(1)
   console.log('records')
+
   const handleVideoClick = (videoUrl) => {
     console.log(`Clicked video: ${videoUrl}`)
   }

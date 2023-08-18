@@ -1,3 +1,9 @@
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
 @mixin subheader {
   text-size: 12px;
   line-height: 20px;
@@ -10,6 +16,11 @@
 
 .video__container {
   margin-top: 20px;
+  width: 100%;
+
+  .video__container-description {
+    @include bodycopy();
+  }
 }
 
 @media (min-width: 820px) and (max-width: 1180px) {
@@ -40,5 +51,6 @@
         rgba(32, 32, 32, 0.5) rgba(32, 32, 32, 0.5)
       ),
       url(https://i.imgur.com/l2Xfgpl.jpg);
+    width: 100%;
   }
 }
