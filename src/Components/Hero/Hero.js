@@ -8,8 +8,8 @@ function Hero() {
   // console.log(videoUpload)
   return (
     <>
-      <video
-        className="video__container"  onClick={() => setActiveVideo(video[0])}
+      <video  onClick={() => setActiveVideo(video[0])}
+        className="video__container"
         controls
         poster={activeVideo.image}
       >
