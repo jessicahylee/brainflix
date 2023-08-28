@@ -1,15 +1,16 @@
 import './Button.scss'
-
+import { Link } from 'react-router-dom'
 function Button() {
   function clickMe() {
-    alert('Upload file')
+    // alert('Upload file')
   }
   return (
     <div className="Button_container">
-      <button className="Button_header" onClick={clickMe}>
-        
-        UPLOAD
-      </button>
+      <Link to="/upload">
+        <button className="Button_header" onClick={clickMe}>
+          UPLOAD
+        </button>{' '}
+      </Link>
     </div>
   )
 }

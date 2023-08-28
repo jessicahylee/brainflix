@@ -1,13 +1,19 @@
 import './NextVideos.scss'
-import records from '../../Assets/Data/video-details.json'
+// import records from '../../Assets/Data/video-details.json' // Hard coded
 
 function NextVideos() {
   const newRecords = records.slice(1)
   console.log('records')
-
+ 
   const handleVideoClick = (videoUrl) => {
     console.log(`Clicked video: ${videoUrl}`)
   }
+
+  // get records from API
+  useEffect(()=>{
+    // axios call 
+    // const records = from the api
+  }, [])
   return (
     <div className="inner">
       <h3 className="nextVideos"> NEXT VIDEOS </h3>

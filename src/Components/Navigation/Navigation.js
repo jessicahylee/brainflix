@@ -15,7 +15,7 @@ function Navigation() {
             <Avatar />
           </span>
         </div>
-        <Button />
+        <Button /> 
         <div className="avatar_tablet">
           <Avatar />
         </div>
