@@ -1,0 +1,50 @@
+@mixin sectionheader {
+  text-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+@mixin subheader {
+  text-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+@mixin labelsbuttons {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.search_container_update {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.search_container-title {
+  @include labelsbuttons();
+  color: #afafaf;
+}
+
+.search_container-text-space {
+  height: 40px;
+  width: 400px;
+}
+
+.search_container-videotitle {
+  @include labelsbuttons();
+  color: #afafaf;
+}
+
+.search_container-videotext {
+  height: 100px;
+  width: 400px;
+}

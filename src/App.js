@@ -6,21 +6,6 @@ import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    // <Routes>
-    //   <Navigation />
-    //   <Hero />
-
-    //   <div className="destok_container">
-    //     <div className="destok_container-div2">
-    //       <Route path="/" element={Information} />
-    //       <Route path="/article" element={Text} />
-    //       {/* <Route path="/updates" component={updates}/> */}
-    //     </div>
-    //     <div className="destok_container-div">
-    //     <Route path="/NextVideos" element={NextVideos} />
-    //     </div>
-    //   </div>
-    // </Routes>
     <>
       <Navigation />
 

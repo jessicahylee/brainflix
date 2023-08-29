@@ -1,0 +1,40 @@
+@mixin sectionheader {
+  text-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+@mixin subheader {
+  text-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@mixin bodycopy {
+  text-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+@mixin labelsbuttons {
+  text-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.upload__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.upload__image-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.upload__title-video {
+  @include labelsbuttons();
+  color: #afafaf;
+}

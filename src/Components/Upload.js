@@ -1,9 +1,15 @@
+import ButtonUpload from './ButtonUpload/ButtonUpload'
+import SearchUpdate from './SearchUpdate/SearchUpdate'
+import UploadVideo from './UploadVideo/UploadVideo'
+
 const Upload = () => {
-    return (
-        <>
-            This is Upload
-        </>
-    );
+  return (
+    <>
+      <UploadVideo />
+      <SearchUpdate />
+      <ButtonUpload />
+    </>
+  )
 }
 
-export default Upload;
+export default Upload
