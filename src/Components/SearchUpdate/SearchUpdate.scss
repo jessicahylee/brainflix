@@ -60,3 +60,23 @@
     width: 1000px;
   }
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .container__destok {
+    display: flex;
+    flex-direction: row;
+  }
+  .search_container_update {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+  }
+  .search_container_update {
+    padding-top: 100px;
+  }
+  .search_container-text-space {
+    width: 600px;
+  }
+  .search_container-videotext {
+    width: 600px;
+  }
+}

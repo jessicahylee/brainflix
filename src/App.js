@@ -1,6 +1,6 @@
 import Navigation from './Components/Navigation/Navigation'
 import Home from './Components/Home'
-import Upload from './Components/Upload'
+import Upload from './Components/Upload/Upload'
 import './App.scss'
 import { Route, Routes } from 'react-router-dom'
 

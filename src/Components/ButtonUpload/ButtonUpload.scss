@@ -35,4 +35,20 @@
   .Button_container-updatevideo {
     width: 200px;
   }
+
+  .Button_container-cancelvideo {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .Button_container-update {
+    display: flex;
+    padding-left: 900px;
+  }
+  .Button_container-updatevideo {
+    width: 200px;
+  }
+  .Button_container-cancelvideo {
+    font-size: 15px;
+  }
 }
