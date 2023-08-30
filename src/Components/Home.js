@@ -5,13 +5,9 @@ import NextVideos from './NextVideos/NextVideos.js'
 const Home = () => {
   return (
     <>
-      {/** Hero */}
       <Hero />
-      {/** Information */}
       <Information />
       <NextVideos />
-
-      {/** Text */}
     </>
   )
 }
