@@ -25,3 +25,14 @@
   padding-left: 160px;
   padding-top: 20px;
 }
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .Button_container-update {
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+  }
+  .Button_container-updatevideo {
+    width: 200px;
+  }
+}

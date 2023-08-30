@@ -37,7 +37,7 @@
 .search_container-text-space {
   height: 40px;
   width: 400px;
-    background-color: #e1e1e1;
+  background-color: #e1e1e1;
   border: 1px solid #afafaf;
 }
 
@@ -49,6 +49,14 @@
 .search_container-videotext {
   height: 100px;
   width: 400px;
-   background-color: #e1e1e1;
+  background-color: #e1e1e1;
   border: 1px solid #afafaf;
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+  .search_container-text-space {
+    width: 1000px;
+  }
+  .search_container-videotext {
+    width: 1000px;
+  }
 }

@@ -38,3 +38,8 @@
   @include labelsbuttons();
   color: #afafaf;
 }
+@media (min-width: 820px) and (max-width: 1180px) {
+  .upload__image-video {
+    width: 400px;
+  }
+}
