@@ -7,7 +7,7 @@ function ButtonUpload() {
       <button className="Button_container-updatevideo" onClick={clickMe}>
         PUBLISH
       </button>{' '}
-      <h3> CANCEL </h3>
+      <h3 className="Button_container-cancelvideo"> CANCEL </h3>
     </div>
   )
 }

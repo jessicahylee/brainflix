@@ -17,5 +17,11 @@
   border: none;
   padding: 0;
   border-radius: 8px;
-  @include labelsbuttons();
+  font-size: 50x;
+  line-height: 40px;
+}
+.Button_container-cancelvideo {
+  color: #0095ff;
+  padding-left: 160px;
+  padding-top: 20px;
 }
