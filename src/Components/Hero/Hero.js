@@ -6,8 +6,8 @@
 //   const [activeVideo, setActiveVideo] = useState([])
 //   // const baseURL = 'https://project-2-api.herokuapp.com'
 //   const apiKey = '5e71a000-ea04-4ea0-8635-e5e4690ef628'
-
-//   const config = {
+// onfig = {
+//   const c
 //     params: {
 //       api_key: apiKey,
 //     },
@@ -78,7 +78,7 @@ function Hero({ videoData }) {
       {videoData && (
         <div className="hero">
           <video className="video__container" controls poster={videoData.image}>
-            <source src={videoData.videoUrl} type="video/mp4" />
+            <source src={videoData.video} type="video/mp4" />
           </video>
           <h1 className="video__container-title">{videoData.title}</h1>
           <p className="video__container-description">

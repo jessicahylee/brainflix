@@ -3,19 +3,18 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
-function NextVideos() {
+// Get all the videos : API  except the videoId that is playing
+// On click of a Vido : setVideoId
+function NextVideos({videoId, setVideoId}) {
   // const newRecords = records.slice(1)
   // console.log('records')
   const [videos, setVideos] = useState([])
 
-  // const handleVideoClick = (videoUrl) => {
-  //   console.log(`Clicked video: ${videoUrl}`)
-  // }
-  // get records from API
+   // get records from API
   useEffect(() => {
     axios
       .get(
-        ' https://project-2-api.herokuapp.com/videos/?api_key=<5e71a000-ea04-4ea0-8635-e5e4690ef628>',
+        'https://project-2-api.herokuapp.com/videos/?api_key=5e71a000-ea04-4ea0-8635-e5e4690ef628',
       )
       .then((response) => {
         setVideos(response.data)
@@ -30,7 +29,7 @@ function NextVideos() {
         <h3 className="nextVideos"> NEXT VIDEOS </h3>
       </Link>
 
-      {videos.map((video, idx) => (
+      {videos.filter(v => v.id != videoId).map((video, idx) => (
         <div
           // onClick={() => handleVideoClick(records.video)}
           className="box"
@@ -41,6 +40,7 @@ function NextVideos() {
             poster={video.image}
             // width="100px"
             // height="100px"
+            onClick={() => setVideoId(video.id)}
           >
             <source src={video.video} />
           </video>

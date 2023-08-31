@@ -1,7 +1,11 @@
 import './ButtonUpload.scss'
+import Swal from 'sweetalert2'
 
 function ButtonUpload() {
-  function clickMe() {}
+  const clickMe = () => {
+    Swal.fire('Success! Video Uploaded!')
+  }
+
   return (
     <div className="Button_container-update">
       <h3 className="Button_container-cancelvideo1"> CANCEL </h3>
