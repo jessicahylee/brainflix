@@ -10,7 +10,9 @@ const Upload = () => {
         <UploadVideo />
         <SearchUpdate />
       </div>
-      <ButtonUpload />
+      <div className="container_button">
+        <ButtonUpload />
+      </div>
     </>
   )
 }

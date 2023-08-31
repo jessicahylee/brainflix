@@ -23,8 +23,6 @@ function NextVideos() {
       .catch((error) => {
         console.error('Error fetching videos:', error)
       })
-    // axios call
-    // const records = from the api
   }, [])
   return (
     <div className="inner">

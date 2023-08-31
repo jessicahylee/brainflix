@@ -3,27 +3,32 @@
   line-height: 20px;
   font-weight: 700;
 }
+@media (min-width: 0px) and (max-width: 820px) {
+  .Button_container-update {
+    padding-left: 40px;
+    padding-top: 20px;
+  }
 
-.Button_container-update {
-  padding-left: 40px;
-  padding-top: 20px;
-}
-
-.Button_container-updatevideo {
-  color: white;
-  background-color: #0095ff;
-  width: 400px;
-  height: 50px;
-  border: none;
-  padding: 0;
-  border-radius: 8px;
-  font-size: 50x;
-  line-height: 40px;
-}
-.Button_container-cancelvideo {
-  color: #0095ff;
-  padding-left: 160px;
-  padding-top: 20px;
+  .Button_container-updatevideo {
+    color: white;
+    background-color: #0095ff;
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding: 0;
+    border-radius: 8px;
+    font-size: 50x;
+    line-height: 40px;
+  }
+  .Button_container-cancelvideo {
+    color: #0095ff;
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  .Button_container-cancelvideo1 {
+    color: #0095ff;
+    display: none;
+  }
 }
 
 @media (min-width: 820px) and (max-width: 1180px) {
@@ -34,10 +39,23 @@
   }
   .Button_container-updatevideo {
     width: 200px;
+    color: white;
+    background-color: #0095ff;
+    height: 50px;
+    border: none;
+    padding: 0;
+    border-radius: 8px;
+    font-size: 50x;
+    line-height: 40px;
   }
 
   .Button_container-cancelvideo {
     font-size: 15px;
+    display: none; // this is the CANCEL in Tablet MODE
+  }
+  .Button_container-cancelvideo1 {
+    color: #0095ff;
+    padding-left: 300px;
   }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
@@ -47,8 +65,21 @@
   }
   .Button_container-updatevideo {
     width: 200px;
+    color: white;
+    background-color: #0095ff;
+    height: 50px;
+    border: none;
+    padding: 0;
+    border-radius: 8px;
+    font-size: 50x;
+    line-height: 40px;
   }
   .Button_container-cancelvideo {
     font-size: 15px;
+    display: none; // this is the CANCEL in Tablet MODE
+  }
+  .Button_container-cancelvideo1 {
+    color: #0095ff;
+    padding-left: 40px;
   }
 }

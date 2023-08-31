@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Navigation />
-
       <Routes>
         <Route path="/" element={<Home />} /> {/** Default page */}
         <Route path="/upload" element={<Upload />} /> {/** Upload page */}
