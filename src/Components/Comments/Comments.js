@@ -28,18 +28,18 @@ function Comments() {
         </div>
       </div>
 
-      {videoComments.comments.map((videoComment, i) => (
+      {videoComments.comments.map((videoId, i) => (
         <div className="comment" key={i}>
           <div className="comment-header">
-            <span className="comment-name">{videoComment.name}</span>
+            <span className="comment-name">{videoId.name}</span>
             <br></br>
             <span className="comment-date">
-              {new Date(videoComment.timestamp).toLocaleString()}
+              {new Date(videoId.timestamp).toLocaleString()}
             </span>
           </div>
-          <div className="comment-text">{videoComment.comment}</div>
+          <div className="comment-text">{videoId.comment}</div>
           <hr className="comment_space"></hr>
-          <div> </div> 
+          <div> </div>
         </div>
       ))}
     </div>
