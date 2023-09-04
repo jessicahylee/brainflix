@@ -10,8 +10,8 @@ import Comments from './Comments/Comments.js'
 const Home = () => {
   const [videoData, setVideoData] = useState([])
   const [videoId, setVideoId] = useState('84e96018-4022-434e-80bf-000ce4cd12b8')
-  console.log('videoID:::', videoId)
 
+  console.log('videoID:::', videoId)
 
   useEffect(() => {
     const fetchData = async () => {

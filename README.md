@@ -16,6 +16,10 @@ git add .
 git commit -m "changes"
 git push. 
 
+For Brainflix 2, we call API's from the API documentation using their specific ID's.
+
+I used different hooks such as: useState and useEffect.  
+
 
 
 
