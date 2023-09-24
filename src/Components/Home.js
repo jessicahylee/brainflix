@@ -16,9 +16,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `https://project-2-api.herokuapp.com/videos/${videoId}?api_key=5e71a000-ea04-4ea0-8635-e5e4690ef628`,
-        )
+        const response = await axios.get(`https://localhost:8080`)
         setVideoData(response.data)
         console.log(response.data)
       } catch (error) {
@@ -31,9 +29,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `https://project-2-api.herokuapp.com/videos/${videoId}?api_key=5e71a000-ea04-4ea0-8635-e5e4690ef628`,
-        )
+        const response = await axios.get(`https://localhost:8080`)
         setVideoData(response.data)
         console.log(response.data)
       } catch (error) {

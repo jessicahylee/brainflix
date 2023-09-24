@@ -28,7 +28,7 @@ function NextVideos({ videoId, setVideoId }) {
       </Link>
 
       {videos
-        .filter((v) => v.id != videoId)
+        .filter((v) => v.id !== videoId)
         .map((video, idx) => (
           <div
             // onClick={() => handleVideoClick(records.video)}
