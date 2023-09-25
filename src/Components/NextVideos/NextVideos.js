@@ -12,7 +12,7 @@ function NextVideos({ videoId, setVideoId }) {
   useEffect(() => {
     axios
       .get(
-        'https://project-2-api.herokuapp.com/videos/?api_key=5e71a000-ea04-4ea0-8635-e5e4690ef628',
+       `http://localhost:8080/videos`
       )
       .then((response) => {
         setVideos(response.data)
