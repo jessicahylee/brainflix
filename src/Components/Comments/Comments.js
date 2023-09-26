@@ -2,12 +2,24 @@ import commentsData from '../../Assets/Data/video-details.json'
 import { useState } from 'react'
 import './Comments.scss'
 import avatar from '../../Assets/Images/Mohan-muruge.jpg'
+import { useEffect } from 'react'
+import axios from 'axios'
 
 function Comments() {
   // eslint-disable-next-line
   const [id, setId] = useState('84e96018-4022-434e-80bf-000ce4cd12b8')
   const videoComments = commentsData.find((data) => data.id === id)
 
+  useEffect(() => {
+    axios
+      .get(`http://localhost:8080/videos/{$videos/:id}`)
+      .then((response) => {
+        setId(response.data)
+      })
+      .catch((error) => {
+        console.error('Error fetching videos:', error)
+      })
+  }, [])
   return (
     <div className="comments__container--list">
       <div className="comments__container-div">
