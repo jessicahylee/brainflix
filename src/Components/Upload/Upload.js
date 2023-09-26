@@ -3,6 +3,7 @@ import SearchUpdate from '../SearchUpdate/SearchUpdate'
 import UploadVideo from '../UploadVideo/UploadVideo'
 import './Upload.scss'
 
+// CALL API's here.
 const Upload = () => {
   return (
     <>
